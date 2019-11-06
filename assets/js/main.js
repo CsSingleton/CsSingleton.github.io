@@ -98,7 +98,7 @@
 		// Lightbox gallery.
 			$window.on('load', function() {
 
-				$('#work-1').poptrox({
+				$('.work-slide').poptrox({
 					caption: function($a) { return $a.next('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
