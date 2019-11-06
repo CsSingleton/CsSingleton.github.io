@@ -99,7 +99,7 @@
 			$window.on('load', function() {
 
 				$('.work-slide').poptrox({
-					caption: function($a) { return $a.next('.caption').text(); },
+					caption: function($a) { return $a.next('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
 					popupCloserText: '',
